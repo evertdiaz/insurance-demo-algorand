@@ -20,10 +20,10 @@
   "platformSettings.autoLoad": true,
   "python.defaultInterpreterPath": "${workspaceFolder}/.venv",
   "python.analysis.indexing": true,
-  "python.formatting.provider": "black",
+  "python.formatting.provider": "none",
   "[python]": {
     // https://dev.to/eegli/quick-guide-to-python-formatting-in-vs-code-2040
-    "editor.defaultFormatter": null
+    "editor.defaultFormatter": "ms-python.black-formatter"
   },
   "python.analysis.typeCheckingMode": "off",
   "python.analysis.diagnosticSeverityOverrides": {

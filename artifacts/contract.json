@@ -1,0 +1,90 @@
+{
+    "name": "InsuranceApp",
+    "methods": [
+        {
+            "name": "create",
+            "args": [
+                {
+                    "type": "address",
+                    "name": "minter"
+                }
+            ],
+            "returns": {
+                "type": "string"
+            }
+        },
+        {
+            "name": "registerAsset",
+            "args": [
+                {
+                    "type": "string",
+                    "name": "name"
+                },
+                {
+                    "type": "uint64",
+                    "name": "val"
+                },
+                {
+                    "type": "string",
+                    "name": "desc"
+                }
+            ],
+            "returns": {
+                "type": "string"
+            }
+        },
+        {
+            "name": "approveAsset",
+            "args": [
+                {
+                    "type": "account",
+                    "name": "account"
+                }
+            ],
+            "returns": {
+                "type": "string"
+            }
+        },
+        {
+            "name": "mintInsurance",
+            "args": [
+                {
+                    "type": "account",
+                    "name": "account"
+                }
+            ],
+            "returns": {
+                "type": "uint64"
+            }
+        },
+        {
+            "name": "sendInsurance",
+            "args": [
+                {
+                    "type": "asset",
+                    "name": "asa"
+                },
+                {
+                    "type": "account",
+                    "name": "receiver"
+                }
+            ],
+            "returns": {
+                "type": "string"
+            }
+        },
+        {
+            "name": "hello",
+            "args": [
+                {
+                    "type": "string",
+                    "name": "name"
+                }
+            ],
+            "returns": {
+                "type": "string"
+            }
+        }
+    ],
+    "networks": {}
+}
